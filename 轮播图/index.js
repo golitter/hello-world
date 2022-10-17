@@ -33,7 +33,7 @@ function _cirNextChange() {
 }
 function _cirPrevChange() {
     _cirPrevBut.onclick = ()=> {
-        /* Í¨¹ı»ñÈ¡µ±Ç°Î»ÖÃ£¬¼õÈ¥Ò»£¬¾ÍÊÇÉÏÒ»ÕÅ */
+        /* é€šè¿‡è·å–å½“å‰ä½ç½®ï¼Œå‡å»ä¸€ï¼Œå°±æ˜¯ä¸Šä¸€å¼  */
         let prevgo = Math.floor(-left / 800) - 1;
         if(prevgo == -1) prevgo = 3;
         imgChange(prevgo);
