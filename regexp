@@ -1,0 +1,40 @@
+# regexp
+
+regexp = new RegExp("pattern", "flags");
+
+regexp = /pattern/gmi/;
+
+i -- 不区分大小写
+
+g -- 区域全部
+
+m -- 多模式 ？
+
+
+
+## str.match( regexp)
+
+str.match(/wg/gi);;  <i> array类型 </i>
+
+str.match(regexp).join("");; string类型
+
+
+
+## str.replace(regexp1, "STRING")
+
+## str.search(regexp) 
+
+返回第一个出现的下标
+
+## regexp.test(str)
+
+判断是否满足正则表达式要求
+
+## Character Classess
+
+\d 数字 \D 非数字
+
+\w 字母 \W 非字母
+
+\s 空格 \S 非空格
+
